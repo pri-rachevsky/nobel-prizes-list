@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: "Alegreya Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222;
+  color: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+li {
+  list-style-type: none; 
+}

@@ -1,0 +1,18 @@
+.highlight {
+    color: yellow;
+}
+
+.container {
+    border-style: solid;
+    border: 2;
+    border-radius: 4px;
+    border-color: azure;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

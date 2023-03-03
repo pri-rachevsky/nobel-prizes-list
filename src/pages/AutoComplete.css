@@ -1,0 +1,27 @@
+.page {
+  margin: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  margin-left: 10px;
+  transform: scaleX(-1);
+  height: 50px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  margin: 100px
+}

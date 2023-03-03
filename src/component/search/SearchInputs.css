@@ -1,0 +1,56 @@
+.button {
+  background-color: #EAC17A;
+  border-radius: 4px;
+  padding: 7px 14px;
+  width: 150px;
+}
+
+.input {
+  border-radius: 4px;
+  padding: 7px 14px;
+}
+
+.inputs {
+  padding-right: 90px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-inputs {
+  display: flex;
+  align-items: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+.warning {
+  border-style: outset;
+  border-radius: 50%;
+  padding: 2px 10px;
+}
